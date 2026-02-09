@@ -1,7 +1,7 @@
 # CARLA Simulator 설치 가이드
 Carla 시뮬레이터 설치 및 활용 정리
 
-## 1. 하드웨어 세팅
+## 1. 사전 세팅
 
 - **OS:**  Ubuntu 22.04
 - **Python_version:** 3.10
