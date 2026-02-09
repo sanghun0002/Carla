@@ -10,10 +10,11 @@ Carla 시뮬레이터 설치 및 활용 정리
 ## 2. 필수 소프트웨어 설치
 
 ### **Linux (Ubuntu)**
+
 ```bash
-`sudo apt-get update
+sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-pip3 install --upgrade pip`
+pip3 install --upgrade pip
 ```
 
  ---
@@ -25,9 +26,6 @@ pip3 install --upgrade pip`
 3. **파일 다운로드:**
     - **Linux:** `CARLA_0.9.15.tar.gz`
 4. **압축 해제:** 
-    
-    bash
-    
 
 ---
 
@@ -35,11 +33,11 @@ pip3 install --upgrade pip`
 
 시뮬레이터를 제어하기 위해 API 라이브러리를 설치해야 합니다.
 
-Bash
-
+```Bash
 `# 압축을 푼 폴더 내 PythonAPI/examples 폴더로 이동 후 실행
 pip install carla
 pip install -r requirements.txt`
+```
 
 ---
 
@@ -47,10 +45,9 @@ pip install -r requirements.txt`
 
 실행 명령어
 
-- **Linux:** `./CarlaUE4.sh`
+- **Linux:** ```bash ./CarlaUE4.sh ```
 
 > **참조:**  `W, A, S, D` 키와 마우스를 이용해 맵을 확인 가능.
-> 
 
 ---
 
