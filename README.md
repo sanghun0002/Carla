@@ -34,9 +34,9 @@ pip3 install --upgrade pip
 시뮬레이터를 제어하기 위해 API 라이브러리를 설치해야 합니다.
 
 ```Bash
-`# 압축을 푼 폴더 내 PythonAPI/examples 폴더로 이동 후 실행
+# 압축을 푼 폴더 내 PythonAPI/examples 폴더로 이동 후 실행
 pip install carla
-pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 
 ---
@@ -45,7 +45,10 @@ pip install -r requirements.txt`
 
 실행 명령어
 
-- **Linux:** ```bash ./CarlaUE4.sh ```
+- **Linux:**
+```bash
+./CarlaUE4.sh
+```
 
 > **참조:**  `W, A, S, D` 키와 마우스를 이용해 맵을 확인 가능.
 
@@ -53,8 +56,14 @@ pip install -r requirements.txt`
 
 - **방화벽 설정:** 통신을 위해 2000번, 2001번 포트가 열려 있어야 합니다.
 - **저사양 모드 실행 명령어**
-    - ./`CarlaUE4.exe -quality-level=Low`
+```bash
+./CarlaUE4.exe -quality-level=Low
+```
 - 화면 없이 서버만 실행하는 명령어
-    - ./CarlaUE4.sh -RenderOffScreen
+```bash
+./CarlaUE4.sh -RenderOffScreen
+```
 - 프레임수 제한
-    - ./CarlaUE4.sh  -fps=15
+```bash
+./CarlaUE4.sh  -fps=15
+```
